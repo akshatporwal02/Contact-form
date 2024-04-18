@@ -1,0 +1,64 @@
+*{
+    box-sizing: content-box;
+}
+body{
+    border-radius: 4px;
+    background-image: url(image/tech.jpeg) ;
+}
+input[type="text"],
+input[type="email"],
+input[type="subject"],
+select{
+    border: 1px solid black;
+    padding: 2px;
+    margin: 4px;
+    width: 100%;
+    border-radius: 5px;
+    color:black;
+    background-color: lightsteelblue;
+}
+.class1,.class2,.class3,.class4,.class5,.class6{
+    color: cornsilk;
+}
+.main_class{
+    color: cornsilk;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.sub_class{
+    color: cornsilk;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+textarea{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: lightblue;
+    color: black;
+}
+div{
+    line-height: 2px;
+    
+}
+.act_class{
+    text-align: center;
+
+}
+
+input[type=submit]{
+    background-color:lightskyblue;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
+    
+}
+.last_class{
+    color: black;
+}
+input[type=submit]:hover{
+    background-color: green;
+}
+::placeholder{
+    color: black;
+}
